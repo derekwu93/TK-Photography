@@ -1,0 +1,447 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* DO NOT TOUCH ANYTHING ABOVE THESE LINES! */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+}
+
+body {
+    width:485px;
+    background-color: #000000;
+}
+
+header {
+    background-color: #ffffff;
+    color: #007d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-right: -15px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav h2 {
+    visibility: hidden;
+}
+
+ul {
+    overflow: visible;
+    position: relative;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    display: grid;
+    margin-left: 50px;
+    
+}
+[href="#top"] {
+    position: absolute;
+    margin-top: 5720px;
+    margin-left: 50px;
+    border: 2px solid #ffffff;
+
+  }
+
+
+.background {
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-right: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section > h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}   
+
+figure {
+    position: relative;
+}
+
+img {
+    padding: 15px;
+    position: relative;
+}
+
+.TopBlack {
+    position: absolute;
+    padding-left: 175px;
+    margin-bottom: 100px;
+    margin-top: -625px;
+    z-index: 1
+}
+
+.TopBlack2 {
+    position: absolute;
+    padding-left: 125px;
+    margin-top:  -285px;
+}
+
+.TopBlackShort {
+    position: absolute;
+    padding-left: 145px;
+    margin-top:  -285px;
+}
+
+.TopBlackU {
+    position: absolute;
+    padding-left: 180px;
+    margin-top:  -285px;
+}
+
+.BottomBlack {
+    position: absolute;
+    padding-left: 175px;
+    margin-top: -50px;
+}
+
+.TopWhite {
+    color: #ffffff;
+    position: absolute;
+    padding-left: 155px;
+    margin-top: -280px;
+    z-index: 1;
+
+}
+
+.BottomWhite {
+    color: #ffffff;
+    position: absolute;
+    padding-left: 160px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+form {
+    color:#ffffff;
+}
+
+form h2  {
+    color:#ffffff;
+    font-weight: bold;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+form p {
+    color:#ffffff;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 25px;
+}
+
+form p:last-of-type{
+    visibility: hidden;
+    height: 0;
+}
+
+
+[placeholder] {
+    color:#007d7b;
+    font-weight: bolder;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+#name, #email, #message {
+    margin-left: 40px;
+    width: 425px;
+}
+
+
+label {
+    padding-left: 40px;
+}
+
+
+button {
+    background-color: #007d7b;
+    color:#ffffff;
+    width: 225px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 125px;
+    text-transform: uppercase;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+
+
+/* FONT SIZES */
+
+p {
+    font-size: 1.25em;
+    line-height: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+figcaption, label, input, small {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+nav a {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+
+/* MEDIA */
+
+@media screen and (min-width:880px) {
+
+    body {
+        width: 880px;
+        margin: 0 auto;
+    }
+
+    nav li {
+        margin: auto;
+
+    }
+
+    ul {
+        margin-left: 175px;
+        justify-content: center;
+    }
+
+    #Columns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    }
+
+    img {
+        padding: 3px;
+        padding-bottom: 10px;
+    }
+
+    [href="#top"] {
+        position: absolute;
+        margin-top: 3245px;
+        margin-left: 220px;
+        border: 2px solid #ffffff;
+    
+      }
+
+    form h2  {
+        color:#ffffff;
+        font-weight: bold;
+        margin-left: 390px;
+        padding-top: 30px;
+    }
+
+    form p {
+        color:#ffffff;
+        padding-top: 15px;
+        text-align: center;
+        padding-left: 100px;
+    }
+
+    label {
+        padding-left: 110px;
+    }
+
+    #name {
+        margin-left: 106px;
+        width: 700px;
+    }
+
+    [for="email"] {
+        position: absolute;
+        padding-top: 56px;
+        margin-left: -815px;
+    }
+
+    #email, #message {
+        margin-left: 105px;
+        width: 700px;
+    }
+
+    [placeholder="Enter your email address"] {
+        color:#007d7b;
+        font-weight: bolder;
+        height: 30px;
+        margin-bottom: 35px;
+        margin-top: 10px;
+    }
+    
+
+    [for="message"] {
+        position: absolute;
+        padding-top: 66px;
+        margin-left: -815px;
+    }
+
+    button {
+        margin-left: 240px;
+        width: 450px;
+    }
+
+    footer {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (min-width:1300px) {
+    body {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    nav {
+        margin: auto;
+        display: grid;
+    }
+
+    ul {
+        margin-left: 850px;
+        justify-content: right;
+    }
+
+    [href="#top"] {
+        position: absolute;
+        margin-top: 2325px;
+        margin-left: 80px;
+        border: 2px solid #ffffff;
+    
+      }
+
+    #Columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+    }
+
+    form {
+        margin-left: 200px;
+    }
+
+    form p {
+        margin-right: 250px;
+    }
+
+    [for="name"] {
+        margin-left: -150px;
+    }
+
+    #name {
+        margin-left: -42px;
+        width: 1000px;
+    }
+
+    #email, #message {
+        margin-left: -44px;
+        width: 1000px;
+    }
+
+    [for="email"] {
+        margin-left: -1120px;
+    }
+
+    [for="message"] {
+        margin-left: -1118px;
+    }
+
+    button {
+        width: 650px;
+        margin-left: -810px;
+        margin-top:60px;
+        position: absolute;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    
+
+
+
+}
