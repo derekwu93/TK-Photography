@@ -16,7 +16,7 @@ I used Visual Studio Code as the primary tool for coding the HTML and CSS, ensur
 
 The website was completed on time with zero budget, achieving an exact match to the client’s vision.  The final product allows visitors to explore the photo gallery seamlessly while providing an easy way to contact the client.  The website can be viewed in full at the following link:
 
-https://derekwu93.github.io/photogallery/
+https://derekwu93.github.io/TK-Photography/
 
 
 ### Project Photos
